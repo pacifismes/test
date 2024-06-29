@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css.css" />
+    <title>Main Page</title>
+    <style>
+                /* Button styles */
+                .custom-button {
+            font-family: "2Credits", "Pixelated MS Sans Serif", Arial;
+            font-size: larger; /* Increase font size to make buttons bigger */
+            padding: 10px 20px; /* Increase padding for better spacing */
+            background: #fcfcfc;
+            border: 1px solid #000;
+            box-shadow: inset -1px -1px #302a2a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+            width: 140px; /* Set fixed width for each button */
+            height: 100px;
+            color: transparent;
+            text-shadow: 0 0 #222;
+            cursor: url(https://custom-cursor.com/downloads/1.0.25/CustomCursor.exe), auto;
+            margin: 10px; /* Add margin for spacing */
+            display: inline-block; /* Display buttons in-line */
+        }
+        
+        /* Hover effect */
+        .custom-button:hover {
+            background-color: #523cdf;
+            cursor: url(https://custom-cursor.com/downloads/1.0.25/CustomCursor.exe), auto;
+        }
+        
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            background-color: #000000;
+            padding: 20px;
+            height: auto; 
+            max-width: 100%;
+        }
+        .header img {
+            max-width: 80%; /* Ensure image doesn't exceed the width of its container */
+            height: auto; /* Maintain aspect ratio */
+            transition: transform 0.3s ease; /* Transition effect */
+        }
+        .header img:hover {
+            transform: scale(1.1); /* Scale up the image on hover */
+        }
+        .container-wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+        .left-image, .right-image {
+            flex: 1; /* Equal width to header */
+        }
+        .leftcontainer, .rightcontainer {
+            width: 50%;
+            background-color: #000000;
+            padding: 0; /* Remove padding */
+            height: 40em;
+        }
+        .rightcontainer {
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            justify-content: center; /* Center align buttons */
+            height: 30
+        }   
+        .leftcontainer {
+            display: flex;
+            flex-direction: column; /* Adjust direction to column */
+            justify-content: center;
+            align-items: center;
+        }
+        .soundcloud-container {
+            width: 100%; /* Set width to 100% */
+            max-width: 80%; /* Limit maximum width */
+            padding: 1em; /* Add padding for spacing */
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container-wrapper">
+            <div class="left-image">
+                <img src="https://files.catbox.moe/sq23t2.png" alt="Left Image">
+            </div>
+            <img src="big header crow" alt="Header Image" style="max-width: 70%; height: 100%;">
+            <div class="right-image">
+                <img src="https://files.catbox.moe/hiqoxz.png" alt="Right Image">
+            </div>
+        </div>
+    </div>
+    <div class="container-wrapper">
+        <div class="leftcontainer">
+            <div class="soundcloud-container">
+                <iframe width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1857194319&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pacifismes" title="crxw" target="_blank" style="color: #cccccc; text-decoration: none;">crxw</a> Â· <a href="https://soundcloud.com/pacifismes" title="UwU" target="_blank" style="color: #cccccc; text-decoration: none;">70mgã®æ„›</a></div>
+            </div>
+        </div>
+        <div class="rightcontainer">
+            <a href="about.html"><button class="custom-button">About</button></a>
+            <a href="socials.html"><button class="custom-button">Socials</button></a>
+            <a href="https://soundcloud.com/pacifismes" target="_blank"><button class="custom-button">SoundCloud</button></a>
+            
+<a href="https://www.youtube.com/@pacifismes" target="_blank"><button class="custom-button">YouTube</button></a>
+
+<a href="https://open.spotify.com/playlist/6foQlyb1asXyZb2n84Ti2u?si=e27f834637994d99" target="_blank"><button class="custom-button">Spotify</button></a>
+            <a href="https://discord.gg/yuka" target="_blank"><button class="custom-button">Discord</button></a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
